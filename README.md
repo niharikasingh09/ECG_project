@@ -19,10 +19,33 @@ This project processes an ECG signal, removes noise, detects R-peaks, and calcul
 
 ### 📎 Dataset
 MIT-BIH Arrhythmia Database
-
-### ▶ How to Run
+### ✅ How to Run
 ```bash
 pip install wfdb numpy scipy matplotlib
 python ecg_project.py
+```
 
-<img width="792" height="684" alt="Screenshot 2025-11-01 103200" src="https://github.com/user-attachments/assets/b09dea9d-275b-4fc7-92a5-4d7ee58f890b" />
+
+
+### 📊 Output Results
+
+#### ✅ Raw ECG Signal
+Shows the original ECG waveform from MIT-BIH dataset.
+
+![Raw ECG](screenshots/raw_signal.png)
+
+---
+
+#### ✅ Filtered ECG Signal (Noise Removed)
+Applied 0.5–40 Hz bandpass filter to remove noise and baseline drift.
+
+![Filtered ECG](screenshots/filtered_signal.png)
+
+---
+
+#### ✅ R-Peak Detection
+Detected R-peaks used to calculate Heart Rate (BPM).
+
+![R Peak Detection](screenshots/rpeak_detection.png)
+
+---
