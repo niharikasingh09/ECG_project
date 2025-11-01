@@ -32,20 +32,20 @@ python ecg_project.py
 #### ✅ Raw ECG Signal
 Shows the original ECG waveform from MIT-BIH dataset.
 
-![Raw ECG](Screenshots/raw_signal.png)
+![Raw ECG](raw_signal.png)
 
 ---
 
 #### ✅ Filtered ECG Signal (Noise Removed)
 Applied 0.5–40 Hz bandpass filter to remove noise and baseline drift.
 
-![Filtered ECG](Screenshots/filtered_signal.png)
+![Filtered ECG](filtered_signal.png)
 
 ---
 
 #### ✅ R-Peak Detection
 Detected R-peaks used to calculate Heart Rate (BPM).
 
-![R Peak Detection](Screenshots/rpeak_detection.png)
+![R Peak Detection](rpeak_detection.png)
 
 ---
