@@ -1,3 +1,4 @@
+
 # ECG Signal Filtering & Heart Rate Detection 🫀
 
 This project processes an ECG signal, removes noise, detects R-peaks, and calculates heart rate using the MIT-BIH dataset.
@@ -24,3 +25,4 @@ MIT-BIH Arrhythmia Database
 pip install wfdb numpy scipy matplotlib
 python ecg_project.py
 
+<img width="792" height="684" alt="Screenshot 2025-11-01 103200" src="https://github.com/user-attachments/assets/b09dea9d-275b-4fc7-92a5-4d7ee58f890b" />
